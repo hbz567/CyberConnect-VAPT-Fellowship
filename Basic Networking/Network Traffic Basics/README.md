@@ -321,13 +321,13 @@ Flow monitoring does not capture packets but summarizes communication patterns.
 
 **Scenario 1 (HTTP Traffic):**
 
-<img width="1858" height="721" alt="image" src="https://github.com/user-attachments/assets/68f52ce8-fb85-4dcf-8bb6-eb3a0b69c193" />
+<img width="889" height="587" alt="image" src="https://github.com/user-attachments/assets/6fea8ebf-63f9-43ed-bc83-a9982b1de9d1" />
 
 THM{HIDDEN}
 
 **Scenario 2 (DNS Traffic):** 
 
-<img width="1749" height="853" alt="image" src="https://github.com/user-attachments/assets/51925786-f3b8-442c-ace2-273ca82f8c72" />
+![Uploading image.png…]()
 
 THM{HIDDEN}
 
@@ -345,3 +345,4 @@ This room covered:
 
 
 Understanding network traffic is fundamental for SOC analysts and penetration testers. It enables detection, investigation, and response to sophisticated attacks across modern enterprise environments.
+
