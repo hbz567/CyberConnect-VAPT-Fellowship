@@ -327,7 +327,7 @@ THM{HIDDEN}
 
 **Scenario 2 (DNS Traffic):** 
 
-![Uploading image.png…]()
+<img width="725" height="466" alt="image" src="https://github.com/user-attachments/assets/de26f775-c3c9-4ea8-b110-1dc4f1e4df47" />
 
 THM{HIDDEN}
 
@@ -345,4 +345,5 @@ This room covered:
 
 
 Understanding network traffic is fundamental for SOC analysts and penetration testers. It enables detection, investigation, and response to sophisticated attacks across modern enterprise environments.
+
 
