@@ -3,6 +3,7 @@
 **Platform:** [TryHackMe](https://tryhackme.com/)  
 **Room:** [Network Traffic Basics](https://tryhackme.com/room/networktrafficbasics)
 
+<img width="1903" height="490" alt="image" src="https://github.com/user-attachments/assets/7fa84198-cd9f-400a-8cac-a7462dc668de" />
 
 ## Introduction
 
@@ -198,6 +199,8 @@ Common protocols:
 
 This traffic typically passes through the firewall.
 
+**HTTPS through Web Proxy**
+<img width="1210" height="212" alt="image" src="https://github.com/user-attachments/assets/9e60ae25-3b4c-4655-b9be-806a3c7da668" />
 
 ### East-West Traffic
 
@@ -212,6 +215,9 @@ Includes:
 - Internal DNS  
 
 East-West traffic is critical during lateral movement investigations.
+
+**SMB with Kerberos**
+<img width="1060" height="510" alt="image" src="https://github.com/user-attachments/assets/d30a8659-2685-4b9d-95e3-8ccf35f8b5d3" />
 
 
 ### Questions
@@ -266,6 +272,8 @@ Two primary methods:
 
 Software-based duplication of traffic.
 
+<img width="463" height="347" alt="image" src="https://github.com/user-attachments/assets/11b555e3-cd0f-407b-ac26-baf30a85ed42" />
+
 Cisco example:
 
 ```
@@ -292,6 +300,8 @@ monitor session 1 destination interface fastEthernet0/2
 
 ## Network Flow Monitoring
 
+<img width="385" height="486" alt="image" src="https://github.com/user-attachments/assets/971504ab-ad21-4a9a-b43d-a70510dc48b6" />
+
 ### NetFlow
 
 - Developed by Cisco  
@@ -309,11 +319,17 @@ Flow monitoring does not capture packets but summarizes communication patterns.
 
 ### Flags
 
-**Scenario 1 (HTTP Traffic):**  
-THM{FoundTheMalware}
+**Scenario 1 (HTTP Traffic):**
 
-**Scenario 2 (DNS Traffic):**  
-THM{C2CommandFound}
+<img width="1858" height="721" alt="image" src="https://github.com/user-attachments/assets/68f52ce8-fb85-4dcf-8bb6-eb3a0b69c193" />
+
+THM{HIDDEN}
+
+**Scenario 2 (DNS Traffic):** 
+
+<img width="1749" height="853" alt="image" src="https://github.com/user-attachments/assets/51925786-f3b8-442c-ace2-273ca82f8c72" />
+
+THM{HIDDEN}
 
 ## Conclusion
 
@@ -326,5 +342,6 @@ This room covered:
 - Network flow monitoring  
 - Traffic sources and flow directions  
 - TAP vs Port Mirroring  
+
 
 Understanding network traffic is fundamental for SOC analysts and penetration testers. It enables detection, investigation, and response to sophisticated attacks across modern enterprise environments.
