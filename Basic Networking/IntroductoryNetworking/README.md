@@ -3,6 +3,8 @@
 **Platform:** [TryHackMe](https://tryhackme.com/)  
 **Room:** [Introductory Networking](https://tryhackme.com/room/introtonetworking)
 
+<img width="1898" height="497" alt="image" src="https://github.com/user-attachments/assets/56a46823-00c8-44dc-a131-73974bd44123" />
+
 ---
 
 # The OSI Model – Overview
@@ -12,6 +14,8 @@ The OSI (Open Systems Interconnection) Model is a standardized conceptual framew
 Although real-world networking primarily follows the TCP/IP model, the OSI model is often preferred for learning purposes because of its clear separation into seven distinct layers.
 
 The OSI model consists of seven layers.
+
+<img width="134" height="279" alt="image" src="https://github.com/user-attachments/assets/b816ef56-cf50-4d01-840e-c56cb60d24fc" />
 
 ---
 
@@ -117,6 +121,8 @@ Encapsulation is the process of adding headers (and sometimes trailers) as data 
 - Network Layer → Adds IP addresses  
 - Data Link Layer → Adds MAC + trailer (FCS/CRC)
 
+<img width="1718" height="822" alt="image" src="https://github.com/user-attachments/assets/c425f291-d987-45f3-8ded-92d5f3405181" />
+
 Data naming by layer:
 
 | Layer | Name |
@@ -151,6 +157,8 @@ It consists of four layers:
 3. Internet  
 4. Network Interface  
 
+<img width="153" height="176" alt="image" src="https://github.com/user-attachments/assets/1ed0fe08-987d-4f92-9f64-f32d74530c8f" />
+
 ---
 
 ## Three-Way Handshake (TCP)
@@ -162,6 +170,8 @@ TCP establishes a connection using:
 3. ACK  
 
 This ensures reliable communication before data transmission begins.
+
+<img width="613" height="439" alt="image" src="https://github.com/user-attachments/assets/fc4660a4-bdcf-4ace-beaf-4f85c309841d" />
 
 ---
 
@@ -192,8 +202,10 @@ ping <target>
 Example:
 
 ```bash
-ping bbc.co.uk
+ping google.com
 ```
+
+<img width="682" height="322" alt="image" src="https://github.com/user-attachments/assets/8a973dcc-ed96-4c1b-b3fa-fe0f28a2adb6" />
 
 ---
 
@@ -221,6 +233,8 @@ Windows:
 ```bash
 tracert <destination>
 ```
+
+<img width="975" height="450" alt="image" src="https://github.com/user-attachments/assets/9ca3771e-735d-469d-b085-b967926bc920" />
 
 ---
 
@@ -259,6 +273,8 @@ Dig allows us to manually query recursive DNS servers of our choice for informat
 dig <domain> @<dns-server-ip>
 ```
 
+<img width="760" height="646" alt="image" src="https://github.com/user-attachments/assets/5e19e93a-b85e-4f8f-9b66-2867e6e0e481" />
+
 DNS resolution order:
 
 1. Hosts File  
@@ -294,5 +310,6 @@ This room provided foundational understanding of:
 - TCP three-way handshake  
 - Networking tools (ping, traceroute, whois, dig)  
 - DNS resolution process  
+
 
 A strong networking foundation is essential for cybersecurity and penetration testing.
