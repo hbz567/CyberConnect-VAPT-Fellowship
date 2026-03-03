@@ -1,4 +1,4 @@
-# PicoCTF Write-up: Obedient Cat
+# PicoCTF Write-up: Packets Primer
 
 Platform: [PicoCTF](https://play.picoctf.org/)
 
@@ -26,3 +26,4 @@ And the flag is present in hex-encoded format!
 <img width="920" height="469" alt="image" src="https://github.com/user-attachments/assets/571b0f88-0845-466c-9087-0e57ad796d4f" />
 
 To view it in readable text format, right click on packet 4, click Follow -> TCP Stream.
+
